@@ -4,8 +4,8 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_registration">registration</string>
     <string name="title_activity_book_aparking_space">BookAParkingSpace</string>
-    <string name="plan_a_parking">Plan a parking</string>
+    <string name="planParking">Plan a parking</string>
     <string name="firstpage">FirstPage</string>
     <string name="next_page">Next Page</string>
-    <string name="plan_a_parking">Plan a parking</string>
+    <string name="title_activity_reserve_parking">ReserveParkingActivity</string>
 </resources>

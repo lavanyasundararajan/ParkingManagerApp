@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        Button nextBtn = findViewById(R.id.nxtPageBtn);
+        Button loginBtn = findViewById(R.id.btnLogin);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        nextBtn.setOnClickListener(new View.OnClickListener() {
+        loginBtn.setOnClickListener(new View.OnClickListener() {
                                        @Override
                                        public void onClick(View view) {
-                                           moveToNextPage();
+                                          moveToLoginPage();
                                        }
                                    }
         );
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void moveToNextPage(){
+    private void moveToLoginPage(){
 
         Intent activityChangeIntent = new Intent(MainActivity.this, LoginActivity.class);
         MainActivity.this.startActivity(activityChangeIntent);
