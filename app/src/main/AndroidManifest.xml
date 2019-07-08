@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".BookAParkingSpace"
-            android:label="@string/title_activity_book_aparking_space"
+            android:name=".ReserveParkingActivity"
+            android:label="@string/title_activity_reserve_parking"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".registration"
+            android:name=".RegistrationActivity"
             android:label="@string/title_activity_registration"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
